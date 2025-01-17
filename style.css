@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/ibm-plex-mono');
+
+h1.title {
+    font-family: 'IBM Plex Mono', sans-serif;
+    text-align: center;
+    background-color: rgba(67, 215, 114)
+}
+
+#wrapper {
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+}
+
+main {
+    height: 80vh;
+    background-color: rgba(67, 215, 114, 0.29);
+}
+
+body {
+    background-color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: monospace;
+}
+
+td {
+    vertical-align: middle;
+    padding: 0;
+    line-height: .5rem;
+}
+
+tr:nth-child(odd)>td {
+    background-color: rgb(229, 229, 229);
+}
+
+.line-numbers {
+    width: 50px;
+    text-align: center;
+    color: #888;
+    user-select: none;
+    background-color: #f7f7f7;
+    border-right: 1px solid #747474;
+}
+
+.code {
+    white-space: pre;
+    background-color: #f9f9f9;
+}
+
+#problem1 {
+    padding: 8px;
+}
+
+div.answers {
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 8px;
+    padding: 10px 0;
+    width: 50vw;
+}
